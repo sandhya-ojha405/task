@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    font-family: sans-serif;
+}
+.part{
+    /* border: 1px solid blue; */
+    width: 50%;
+    overflow-y: scroll;
+    height: 100vh;
+    scrollbar-width: thin;
+    padding: 0px 10px;
+}
+.text{
+    font-size: 37px;
+    font-family: sans-serif;
+    color: rgb(17, 17, 83);
+}
+.text span{
+    color: goldenrod;
+}
+.text1{
+    margin: 20px 0px;
+}
+.l_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    /* border: 1px solid red; */
+    width: 30%;
+    justify-items: center;
+    align-content: center;
+    padding: 10px 0px;
+}
+.image .box{
+    border: 1px solid gray;
+    width: 70%;
+    height: 110px;
+    border-top: none;
+}
+.image .u_box{
+    /* border: 1px solid gray; */
+    background-color: #bb7cbb;
+    width: 70%;
+    height: 35px;
+    margin: 7px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 10px;
+     font-weight: bold;
+
+}
+.input{
+    width: 70%;
+    /* border: 1px solid red; */
+}
+.input .two_input{
+    /* border:1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.input .two_input .head{
+    /* border: 1px solid green; */
+    width: 48%;
+}
+.input .two_input .head .input1{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.input .two_input .head .input1 input{
+    width: 100%;
+    padding: 5px 3px;
+}
+.input .two_input .head .input1 input::placeholder{
+    font-size: 14px;
+}
+.one_input{
+    /* border:1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 0px;
+}
+ .one_input .head{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+ .one_input .head .input1 input{
+    width: 100%;
+    padding: 5px 3px;
+
+ }
+.input .one_input .head .input1 input::placeholder{
+    font-size: 14px;
+}
+
+.inputt{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.inputt .two_input{
+    /* border:1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.inputt .two_input .head{
+    /* border: 1px solid green; */
+    width: 48%;
+}
+.inputt .two_input .head .input1{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.inputt .two_input .head .input1 input{
+    width: 100%;
+    padding: 5px 3px;
+}
+.inputt .two_input .head .input1 input::placeholder{
+    font-size: 14px;
+}
+.button{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.button .back button{
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.button .continue button{
+    border: none;
+    background-color: rgb(45, 201, 221);
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.describe .row{
+    /* border: 1px solid blue; */
+    display: flex;
+    padding: 5px 0px;
+}
+.describe .row .sec{
+    border: 1px solid gray;
+    margin: 0px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.describe .row .sec .icon{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 999px;
+    margin: 0px 5px;
+}
+.describe .row .sec span{
+    color: blue;
+    margin: 0px 3px;
+}
+.sec1{
+    border: 1px solid red;
+}
+
+.sec1 .bottom_sec .in input{
+    width: 60%;
+    padding: 7px 3px;
+    margin: 10px 0px;
+}
+.sec1 .bottom_sec .in input::placeholder{
+    font-size: 17px;
+}
+
+.part1{
+    border: 2px solid #053849;
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 10px; */
+     word-break: break-all; 
+}
+.child1{
+    /* border: 1px solid blue; */
+    width: 32%;
+    background-color: #053849;
+    padding: 10px 0px;
+}
+.outer{
+    justify-items: center;
+
+}
+.child1 .border{
+    border: 3px solid white;
+    width:150px;
+    height: 150px;
+    border-radius: 999px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child1 .image{
+    border: 4px solid rgb(2, 15, 59);
+    width:140px;
+    height: 140px;
+    border-radius: 999px;
+    background-color: whitesmoke;
+}
+.name{
+    margin: 10px 0px;
+    font-size: 21px;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact{
+    /* border: 1px solid red; */
+    width: 80%;
+    padding: 3px 5px;
+    background-color:#c0802d;
+    color: #053849;
+    font-family:sans-serif;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    font-weight: bold;
+}
+.c_list{
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+    /* word-break: break-all; */
+}
+.c_list ul{
+    padding: 0px 0px 0px 20px;
+}
+.c_list ul li{
+    color :rgb(238, 236, 236);
+    margin: 6px 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+ 
+.child2{
+    /* border: 1px solid greenyellow; */
+    width: 70%;
+    padding: 10px 5px;
+}
+.a{
+    /* border: 1px solid red; */
+    /* padding: 10px 5px; */
+    /* display: flex; */
+    align-items: center;
+}
+
+.a h2{
+    font-size: 20px;
+    /* margin: 0px 10px; */
+}
+.a h2 i{
+    color: #053849;
+    font-size: 23px;
+}
+.a .line{
+    width: 140px;
+    background-color: orange;
+    height: 3px;
+    border-radius: 50%;
+    margin: 0px 0px 5px 0px;
+}
+.about p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 14px;
+}
+.about strong{
+    font-family:sans-serif;
+} 
